@@ -55,9 +55,11 @@ def summarizer_dialogue(dialogue: str) -> str:
     targets = model.generate(
         input_ids=inputs["input_ids"],
         attention_mask=inputs["attention_mask"],
-        max_length=150,
+        max_length=250,
+        min_length=60,
         num_beams=4,
-        early_stopping=True
+        early_stopping=True,
+        length_penalty=2.0
     )
 
     # Token ids convert to summary => decoding
