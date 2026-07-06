@@ -99,3 +99,9 @@ Text-Summarizer-App/
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+## Author
+
+**Vishesh Gaur**
+
+© 2026 Vishesh Gaur. All rights reserved.
